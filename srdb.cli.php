@@ -31,6 +31,8 @@ date_default_timezone_set( 'Europe/London' );
 // include the srdb class
 require_once( realpath( dirname( __FILE__ ) ) . '/srdb.class.php' );
 
+require __DIR__ . '/vendor/autoload.php';
+
 $opts = array(
     [ 'h:', 'host:', 'Required. The hostname of the database server.', ],
     [ 'n:', 'name:', 'Required. Database name.', ],

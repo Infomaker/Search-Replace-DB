@@ -29,8 +29,5 @@
             "phpunit"
         ]
     },
-    "bin": [ "srdb.cli.php" ],
-    "autoload": {
-        "files": [ "srdb.class.php" ]
-    }
+    "bin": [ "srdb.cli.php" ]
 }
