@@ -7,6 +7,10 @@
         {
             "type": "composer",
             "url": "https://composer.infomaker.io"
+        },
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
         }
     ],
     "require": {
@@ -15,7 +19,7 @@
         "ext-mbstring": "*",
         "ext-pdo": "*",
         "ext-json": "*",
-        "infomaker/everyware-support": ">=0.4"
+        "infomaker/everyware-starter-kit": "2.0.1"
     },
     "support": {
         "issues": "https://github.com/interconnectit/Search-Replace-DB/issues"
